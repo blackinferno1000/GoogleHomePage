@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+}
+input[type='button']{
+    padding: .8em;
+    border: none;
+    background-color: rgb(241, 238, 238);
+    font-weight: 700;
+    color: rgb(153, 153, 151);
+}
+input[type='button']:hover{
+    background-color: rgb(252, 250, 250);
+    border: .05em solid rgb(199, 198, 198);
+    color: black;
+    border-radius: .15em;
+    transform: scale(1.05);
+}
+input[type='search']{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: .9em;
+    margin-top: 10px;
+    width: 500px;
+    /* box-shadow: 3px 3px 10px rgb(189, 189, 189); */
+    box-shadow: 0px 1.75px 2px 2px rgba(0,0,0,0.2);
+    border: none;
+    outline: none;
+}
+.material-icons{
+    color: rgb(148, 148, 148);
+    margin-left: 15px;
+    position: relative;
+    top: 7px;
+    
+}
+.material-icons:first-child{
+    margin-left: 0px;
+}
+.material-icons:hover{
+    color: black;
+    text-decoration: none;
+}
+li:hover{
+    color: rgb(121, 121, 121);
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul{
+    display: inline-block;
+}
+ul li{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    padding: 1em;
+    font-size: 14px;
+    margin-right: -20px;
+}
+#rightNav{
+    margin-top: -14px;
+    display: relative;
+    right: 0;
+}
+#rightFoot{
+    display: relative;
+    right: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+#top{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    width: 100%;
+}
+#top ul li:last-of-type{
+    padding-right: 40px;
+}
+#content{
+    margin-top: 100px;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+#search{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#bottom{
+    display: flex;
+    margin-top: 240px;
+    justify-content: space-between;
+    color: rgb(104, 103, 103);
+    border-top: .5px solid rgb(236, 234, 234);
+    background-color: rgb(245, 237, 237);
+    width: 100%;
+}
+#bottom ul li:last-of-type{
+    padding-right: 40px;
+}
